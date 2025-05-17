@@ -35,6 +35,35 @@ header {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Уточнения для контейнера логотипа */
+.logo-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Группировка текстовой части логотипа */
+.logo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Стили для логотипа */
+.logo {
+    width: 60px;
+    height: auto;
+    margin-right: 15px;
+    border-radius: 8px; /* Закругленные углы для логотипа */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
+
+/* Улучшаем контейнер логотипа для лучшего расположения */
+.logo-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .logo-container h1 {
     font-size: 1.8rem;
     margin-bottom: 0.3rem;
